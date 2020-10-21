@@ -1,0 +1,59 @@
+ejercicio 17 pág 45 (54/917)
+a = 4556
+b = a% 10;
+
+/////////////////
+
+si x >= 10000
+        x / 10000
+sino
+    si x> 10000
+        x /10000
+    si no
+        si x =100
+            x/100
+            si no 
+                x>= 10
+                    x / 10
+                si no
+                        \*falta un dato*\
+//////////////////////////
+19.
+si x >= 10000
+        x / 10000
+sino
+    si x> 10000
+        x /10000
+    si no
+        si x =100
+            x/100
+            si no 
+                x>= 10
+                    x / 10
+                si no
+                        x
+
+////////
+si el número es negativo, usamos el valor multiplicado *(-1)
+
+//////////
+20
+
+ABCBA
+ABBA
+AA
+A 
+
+SI X>= 10000
+    Primera = x / 10000
+    Quinta = x % 10
+    si Primera == Quinta 
+        Segunda = (x % 10000) / 10000;
+        Cuarta = (x % 100) / 10;
+        si Segunda == Cuarta
+
+
+    
+        
+
+
