@@ -1,7 +1,7 @@
 /*
- * T5ejemplo03.java
+ * t3texto.java
  *
- * Copyright 2020 Mario Giovanny Duran Eyzaguirre <gd@giodurane.com>
+ * Copyright 2020 Giovanny Duran <mario.duran.alu@iescampanillas.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,24 +22,14 @@
  */
 
 
-public class T5ejemplo03 {
+public class t3texto {
 
 	public static void main (String[] args) {
-    int num1;
-    int num2;
-    int suma;
+  String nombre;
+  System.out.print("Por favor, introduzca su nombre: ");
+  nombre = System.console().readLine();
 
-    for ( int i = 1; i<11; i++){
-      System.out.println("Introduzca un número: ");
-      num1 = Integer.parseInt(System.console().readline());
-      System.out.println("Introduzca otro número: ");
-      num2 = Integer.parseInt(System.console().readline());
-
-      int suma = num1 + num2;
-      System.out.println("El resultado de la suma es: "+suma);
-
-
-    }
+  System.out.println("Hola," + nombre + " encantao de saludarte");
 	}
 }
 

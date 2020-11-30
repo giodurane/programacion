@@ -32,7 +32,7 @@ public class t5ej5 {
 	for(int i=0; i<=n; i++)
 	{
 		for(int a=1; a<=contador; a++){
-			System.out.print(" "+a);
+			System.out.print("s"+a);
 			}
 	}
 
