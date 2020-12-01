@@ -1,0 +1,3 @@
+ git push origin master
+error: src refspec master does not match any.
+error: falló el push de algunas referencias a 'https://github.com/giodurane/programacion'
