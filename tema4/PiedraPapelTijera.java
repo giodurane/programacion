@@ -21,8 +21,8 @@
  *
  */
 
-
-public class PiedraPapelTijeraLagartoSpock {
+import java.util.Scanner;
+public class PiedraPapelTijera {
 
 	public static void main (String[] args) {
 		Scanner s = new Scanner (System.in);
@@ -39,20 +39,15 @@ public class PiedraPapelTijeraLagartoSpock {
       System.out.println("Empate");
       } else {
         switch (jugada1) {
-          case "piedra":
-            switch (jugada2) {
-              case "tijera":
-              case "lagarto":
-                System.out.println("Gana jugador 1");
-              break;
-              case "papel":
-                  break;
-              case "tijera":
-                  break;
-              case "lagarto":
-                  break;
-              case "spock":
-                  break;
+          case "piedra";
+          case "papel";
+          System.out.println("Gana J1");
+          break;}
+        switch (jugada2) {
+          case "tijera";
+          case "lagarto";
+            System.out.println("Gana jugador 1");
+          break;
 
           }
         }
