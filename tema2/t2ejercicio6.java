@@ -21,7 +21,7 @@ public class t2ejercicio6 {
 
   System.out.println("Total base "+ tBase +"€");
   System.out.println("IVA 21% "+ iva +"€");
-  System.out.println("Total de factura "+ tFactura +"€");
+  System.out.println("Total de factura "+ tFactura +"€");//preguntar como limitar los decimales a 2
   }
 }
 
