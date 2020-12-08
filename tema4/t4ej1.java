@@ -9,48 +9,52 @@
  *
  */
 
-
+import java.util.Scanner;
 public class t4ej1 {
 
 	public static void main (String[] args) {
-
-  String dia;
+  Scanner s = new Scanner(System.in);
 
   System.out.print("Por favor, indique un día de la semana y le diré que asignatura le toca ese día a primera hora ");
+  int dia = s.nextInt();
 
-  dia = (System.console().readLine());
-  dia.toLowerCase();
+  System.out.print("holaa"+dia);
 
-    switch (dia) {
-      case "lunes" :
-        System.out.println("tienes Programación a primera hora");
-        break;
+  switch (dia){
 
-      case "martes" :
-        System.out.println("tienes Sistemas Informáticos a primera hora");
-        break;
+    case lunes:
+      System.out.print("Le toca PROG");
+      break;
 
-      case "miercoles" :
-        System.out.println("tienes Base de datos a primera hora");
-        break;
+    case martes:
+      System.out.print("Le toca SINF");
+      break;
 
-      case "jueves" :
-        System.out.println("tienes Fol a primera hora");
-        break;
+    case miercoles:
+      System.out.print("Le toca BBDD");
+      break;
 
-      case "viernes" :
-        System.out.println("tienes BBDD a primera hora");
-        break;
+    case jueves:
+      System.out.print("Le toca LGMK");
+      break;
 
-      case "sabado" :
-        System.out.println("No hay clase, pero puedes ponerte a programar");
-        break;
+    case viernes:
+      System.out.print("Le toca ENTD");
+      break;
 
-      case "domingo" :
-        System.out.println("No hay clase, pero puedes ponerte a programar");
-        break;
+    case sabado:
+      System.out.print("Es festivo, disfrute de lo bailao");
+      break;
 
+    case domingo:
+      System.out.print("Es festivo, no olvide preparar la semana próxima");
+      break;
+
+
+    default:
+      break;
     }
+
   }
 }
 

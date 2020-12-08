@@ -42,6 +42,8 @@ public class menuSwitch {
         double funcion = a*b/2;
         System.out.println("el lado \nY vale: " + a + "cm, el lado \nX vale" + b + "cm; el área del rectángulo es: " + funcion + "cm2") ;
         break;
+      default:
+        System.out.print("\nLo siento, la opción seleccionada no es correcta");
     }
 	}
 }
