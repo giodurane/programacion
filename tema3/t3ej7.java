@@ -23,8 +23,9 @@ public class t3ej7 {
   double total = baseImp * 1.21;
 
   System.out.println("El precio del artóculo es: " + baseImp);
-  System.out.println("El 21% de iva: " + elIva);
-  System.out.println("El precio total: " + total);
+  System.out.print("El 21% de iva: ");
+  System.out.printf("%6.2f \n", elIva);
+  System.out.println("El precio total: " + total+"€");
 
 	}
 }
