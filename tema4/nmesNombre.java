@@ -19,31 +19,31 @@ public class nmesNombre {
 
   switch (mes){
     case 1: nombreMes = "Enero";
-    break;
+      break;
     case 2: nombreMes = "Febrero";
-    break;
+      break;
     case 3: nombreMes = "Marzo";
-    break;
+      break;
     case 4: nombreMes = "Abril";
-    break;
+      break;
     case 5: nombreMes = "Mayo";
-    break;
+      break;
     case 6: nombreMes = "Junio";
-    break;
+      break;
     case 7: nombreMes = "Julio";
-    break;
+      break;
     case 8: nombreMes = "Agosto";
-    break;
+      break;
     case 9: nombreMes = "Septiembre";
-    break;
+      break;
     case 10: nombreMes = "Octubre";
-    break;
+      break;
     case 11: nombreMes = "Noviembre";
-    break;
+      break;
     case 12: nombreMes = "Diciembre";
-    break;
+      break;
     default: nombreMes = "no existe ese mes";
-    break;
+      break;
     }
     System.out.println("Mes " + mes + ": " + nombreMes);
 	}
