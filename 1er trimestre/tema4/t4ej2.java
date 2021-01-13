@@ -9,24 +9,28 @@
  *
  */
 
-
+import java.util.Scanner;
 public class t4ej2 {
 
 	public static void main (String[] args) {
-		String linea;
-  System.out.print("Por favor, introduzca un número: ");
-  linea = System.console().readLine();
+	Scanner s = new Scanner(System.in);
+  String linea;
+  System.out.print("Por favor, introduzca un numero: ");
+  linea = s.nextLine();
   int hora;
   hora = Integer.parseInt(linea);
 
-  if ((hora >= 6) && (hora <= 13)){
-    System.out.println("Buenas días");
-  }
-    if ((hora >= 13) && (hora <= 21)){
-      System.out.println("Buenas tardes");
+    if ((hora >= 6) && (hora <= 13)){
+      System.out.println("Buenas dias");
     }
-      if (hora >= 21){
-        System.out.println("Buenas noches");
+      if ((hora >= 13) && (hora <= 18)){
+        System.out.println("Buenas tardes");
       }
+        if ((hora >= 19) && (hora <=24)){
+          System.out.println("Buenas noches");
+        }
+          if (hora > 25){
+            System.out.println("Esa hora no es de este planeta, busca otro programa para resolver tu problema ;-)");
+          }
   }
 }

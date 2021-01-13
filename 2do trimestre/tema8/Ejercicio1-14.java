@@ -40,8 +40,30 @@ return false;
 }
 return true;
 }
-
+/**
+* Comprueba si un número entero positivo es capicua o no.
+* Un número es capicua cuando se lee igual indiferentemente del sentido 
+* enel que se lea.
+*
+* @param x un número entero positivo
+* @return <code>true</code> si el número es primo
+* @return <code>false</code> en caso contrario
+*/
 public static boolean esCapicua(long x){
   
+  // Voltea el número introducido.
+  long numero = numeroIntroducido;
+  long volteado = 0;
+  
+  while (numero > 0) {
+  volteado = (volteado * 10) + (numero % 10);
+  numero /= 10;
   }
+  
+    if (volteado == numeroIntroducido) {
+    System.out.println("El " + numeroIntroducido + " es capicua");
+    } else {
+        System.out.println("El " + numeroIntroducido + " no es capicua");
+      }
+}
 

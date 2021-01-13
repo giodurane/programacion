@@ -9,8 +9,10 @@
 import java.util.Scanner;
 public class t4SentenciaIf03 {
 
-  public static void main (String[] args) { Scanner s = new Scanner(System.in);
-  System.out.print("¿Qué nota has sacado?"); double nota = s.nextDouble();
+  public static void main (String[] args) { 
+  Scanner s = new Scanner(System.in);
+  System.out.print("¿Qué nota has sacado?");
+  double nota = s.nextDouble();
 
   if (nota >=5){
     System.out.println("Enhorabuena, ¡has aprobado!");

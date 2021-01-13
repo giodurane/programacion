@@ -33,7 +33,7 @@ public class t4ej2v1 {
       if ((hora >= 13) && (hora <= 21)){
         System.out.println("Buenas tardes");
       }
-        if (hora >= 21){
+        if ((hora >= 21) && (hora < 24)){
           System.out.println("Buenas noches");
         }
   }
