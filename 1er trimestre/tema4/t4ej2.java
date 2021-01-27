@@ -15,11 +15,14 @@ public class t4ej2 {
 	public static void main (String[] args) {
 	Scanner s = new Scanner(System.in);
   String linea;
-  System.out.print("Por favor, introduzca un numero: ");
+  System.out.print("introduzca una hora sin minutos, comprendida entre las 00 - 24: ");
   linea = s.nextLine();
   int hora;
   hora = Integer.parseInt(linea);
 
+  if ((hora>0) && (hora<=5)){
+    System.out.println("Buenas noches");
+    }
     if ((hora >= 6) && (hora <= 13)){
       System.out.println("Buenas dias");
     }
@@ -28,9 +31,11 @@ public class t4ej2 {
       }
         if ((hora >= 19) && (hora <=24)){
           System.out.println("Buenas noches");
-        }
-          if (hora > 25){
-            System.out.println("Esa hora no es de este planeta, busca otro programa para resolver tu problema ;-)");
+        }else{
+          System.out.println("Esa hora no es de este planeta, busca otro programa para resolver tu problema ;-)");
           }
+          /*if (hora > 25){
+            System.out.println("Esa hora no es de este planeta, busca otro programa para resolver tu problema ;-)");
+          }*/
   }
 }

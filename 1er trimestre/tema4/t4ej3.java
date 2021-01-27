@@ -13,25 +13,25 @@ public class t4ej3 {
 
 	public static void main (String[] args) {
   Scanner s = new Scanner(System.in);
-  int ndia;
+  int dia;
   System.out.print("Dame un numero entre 1 - 7 y te dire a que dia de la semana corresponde: ");
-  ndia = s.nextInt();
+  dia = s.nextInt();
 
-    switch(ndia){
+    switch(dia){
     case 1:
-      System.out.println("el dia seleccionado "+1+" corresponde al lunes");
+      System.out.println("ha seleccionado "+1+", corresponde al lunes");
       break;
-    case 2:
-      System.out.println("el dia seleccionado "+2+" corresponde al martes");
+    case 2:,
+      System.out.println("ha seleccionado "+2+", corresponde al martes");
       break;
     case 3:
-      System.out.println("el dia seleccionado "+3+" corresponde al miercoles");
+      System.out.println("ha seleccionado "+3+", corresponde al miercoles");
       break;
     case 4:
-    System.out.println("el dia seleccionado "+4+" corresponde al jueves");
+    System.out.println("ha seleccionado "+4+", corresponde al jueves");
       break;
     case 5:
-    System.out.println("el dia seleccionado "+5+" corresponde al viernes");
+    System.out.println("ha seleccionado "+5+", corresponde al viernes");
       break;
     case 6:
     System.out.println("es sábado");
@@ -40,7 +40,7 @@ public class t4ej3 {
     System.out.println("es domingo");
       break;
     default:
-    System.out.println("Ha introducido un dato erróneo");
+    System.out.println("Ha introducido un numero erroneo");
     }
 	}
 }

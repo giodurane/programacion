@@ -21,7 +21,7 @@ public class t4ej5 {
   System.out.print("Introduzca el valor de b: ");
   valorB = s.nextInt();
 
-  System.out.print("Valores: "+valorA+" sd "+valorB);
+  System.out.print("Valores introducidos: a) "+valorA+" b) "+valorB);
 
   if (valorA == 0) {
     System.out.println("No hay solución real");

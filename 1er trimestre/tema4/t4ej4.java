@@ -29,7 +29,7 @@ public class t4ej4 {
 
   int hsExtra = horasTrb - 40;
   int cobroNormal = horasTrb * precionormal;
-  int cobroExtra = (horasTrb - 40) * precioplus;
+  int cobroExtra = hsExtra * precioplus;
   int cobroOrdinario = 40 * 12;
   int cobrototal = cobroOrdinario + (hsExtra*precioplus);
 
@@ -37,7 +37,7 @@ public class t4ej4 {
     System.out.println("Usted suma un total de " + horasTrb + " horas trabajadas esta semana. Le corresponden " + cobroNormal + " Euros.-");
   } else{
       System.out.println("Usted suma un total de " + horasTrb + " horas trabajadas esta semana. Le corresponden " + cobroOrdinario + " Euros.- por su trabajo ordinario.");
-      System.out.println("Horas extra total: "+hsExtra+" hora/s, le corresponden "+cobroExtra+"€.- Esta semana cobrará usted"+cobrototal+"€ bruto");
+      System.out.println("Sus horas extra suman un total de: "+hsExtra+" hora/s, que se pagan a "+ precioplus+" Euros. Le corresponde un extra de: "+cobroExtra+" Euros.- Esta semana cobrara usted "+cobrototal+" Euros");
     }
 	}
 }

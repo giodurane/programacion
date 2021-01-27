@@ -12,7 +12,7 @@ public class menuSwitch {
 	public static void main (String[] args) {
   Scanner s = new Scanner(System.in);
 
-  System.out.println("CÁLCULO DE ÁREAS");
+  System.out.println("calculo de areas");
   System.out.println("1. Cuadrado");
   System.out.println("2. Rectángulo");
   System.out.println("3. Triángulo");

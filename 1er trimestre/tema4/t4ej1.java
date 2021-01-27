@@ -17,7 +17,7 @@ public class t4ej1 {
 
     switch(dia){
       case "lunes":
-      System.out.println("programacion");
+      System.out.println("el "+dia+" tiene programacion");
         break;
       case "martes":
       System.out.println("BBDD");

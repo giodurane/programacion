@@ -13,7 +13,7 @@ public class t4ej6 {
 
 	public static void main (String[] args) {
     Scanner s = new Scanner(System.in);
-  int altura;
+  int altura = 0;
    System.out.print("Hola, vamos a calcular el tiempo que tarda un objeto en caer desde una altura dada por el usuario. \nIntroduzca la altura: ");
   altura = s.nextInt();
 
