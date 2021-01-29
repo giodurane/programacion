@@ -27,7 +27,7 @@ public class t4ej12 {
     System.out.println("1pto por cada respuesta correcta.");
     System.out.println("Las respuestas correctas tienen premio.");
     System.out.println("");
-    System.out.println("A: ¿Cual fue la temporada del EUROMalaga en Champions?");
+    System.out.println("A: Cual fue la temporada del EUROMalaga en Champions?");
     System.out.println("1) ano 1932");
     System.out.println("2) temporada2012/2013");
     System.out.println("3) No te acuerdas ni tu Hulio...");
@@ -40,7 +40,7 @@ public class t4ej12 {
     } else {
           System.out.println("La respuesta es incorrecta");
       }
-    System.out.println("B: ¿cuando consiguio el Unicaja Baloncesto el titulo de campeon de liga?");
+    System.out.println("B: Cuando consiguio el Unicaja Baloncesto el titulo de campeon de liga?");
     System.out.println("");
     System.out.println("1) temporada 2005/2006");
     System.out.println("2) temporada 2016/2017");
@@ -56,7 +56,14 @@ public class t4ej12 {
       }
     System.out.println("Has sumado "+puntos+" puntos.");
     System.out.println("");
-    System.out.print("Enhorabuena!");
+    if(puntos == 0){
+      System.out.print("Pa tu casa!");
+    } if(puntos == 1){
+        System.out.print("algo es algo");
+      } if(puntos==2){
+          System.out.print("Enhorabuena!");
+        }
+    
 	}
 }
 
