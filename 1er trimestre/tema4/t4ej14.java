@@ -15,18 +15,18 @@ public class t4ej14 {
 	public static void main (String[] args) {
 		Scanner s = new Scanner(System.in);
     int numero;
-    System.out.print("Introduce un numero y te dire si es par o divisible entre 5: ");
+    System.out.print("Introduce un número y te dire si es par o divisible entre 5: ");
     numero = s.nextInt();
-    System.out.println("El numero introducido es: "+numero);
+    System.out.println("El número introducido es: "+numero);
     if ((numero % 2) == 0){
-      System.out.println("el numero introducido es par.");
+      System.out.println("el número introducido es par.");
       } else {
           System.out.println("es impar");
         }
     if((numero % 5) == 0){
-        System.out.println("el numero es divisible entre 5");
+        System.out.println("el número es divisible entre 5");
       } else {
-          System.out.println("no es divisible entre 5");
+          System.out.println("el número no es divisible entre 5");
         }
 	}
 }
