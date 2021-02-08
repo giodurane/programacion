@@ -18,8 +18,8 @@ public class t5ej8 {
   int i , introduce;
   System.out.print("Introduce el numero a multiplicar: ");
   introduce = s.nextInt();
-  for (i = 1; i <=1000; i++){
-      System.out.println("Multiplicamos "+i+" x "+i*introduce);
+  for (i = 1; i <=100; i++){
+      System.out.println("Multiplicamos: "+i+" x "+introduce+" = "+i*introduce);
     }
 	}
 }
