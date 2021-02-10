@@ -12,11 +12,22 @@
  * 
  */
 
-
+import java.util.Scanner;
 public class t5ej15 {
 	
 	public static void main (String[] args) {
-		
+    Scanner s = new Scanner(System.in);
+    int a, s;
+    double exponente;
+    Syste.out.print("Dame un número base: ");
+    a = s.nextInt();
+    Syste.out.println("Dame un exponente: ");
+    s = s.nextInt();
+    
+    
+    Syste.out.println("");
+    Syste.out.println("");
+    
 	}
 }
 
